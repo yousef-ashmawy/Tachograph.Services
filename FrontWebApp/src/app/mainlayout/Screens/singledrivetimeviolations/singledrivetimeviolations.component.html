@@ -1,0 +1,32 @@
+<div class="section_body">
+  <div class="contentBody">
+      <div class="subTi_reTa">
+          <div class="subtitle">
+              <p>Day Drive Time Violations</p>
+          </div>
+
+          <div class="input_group">
+            <input [(ngModel)]="Date" type="date" (change)="Search()" />
+          </div>
+      </div>
+
+      <div class="table_desc wishlist" id="table">
+          <div class="table-responsive">
+              <table>
+                  <thead>
+                      <tr>
+                          <th class="product_table">driver</th>
+                          <th class="product_table">Date</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr *ngFor="let Item of DriversData">
+                          <td class="product_table">{{Item.driver}}</td>
+                          <td class="product_table">{{Item.date}}</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+</div>

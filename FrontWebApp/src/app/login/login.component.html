@@ -1,0 +1,35 @@
+<div class="loginPage">
+    <a class="logoLanding"><img src="./assets/Site_Images/logo.png" alt=""></a>
+    <div class="inputLogin">
+        <form name="Loginform" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="titleLogin">
+                <h2>{{'login'|translate}}</h2>
+                <p>{{'loginDescription'|translate}}</p>
+            </div>
+            <div class="">
+                <div class="input_group">
+                    <label>{{'Email'|translate}}</label>
+                    <input type="text" formControlName="email" placeholder="mail@website.com">
+                    <span
+                        *ngIf="loginForm.controls['email'].invalid && (loginForm.controls['email'].dirty || loginForm.controls['email'].touched)"
+                        class="required">{{'required'|translate}}</span>
+                </div>
+                <div class="input_group passInput">
+                    <label>{{'password'|translate}}</label>
+                    <input [type]="show ? 'text' : 'password'" placeholder="{{'passwordPlaceholder'|translate}}"
+                        formControlName="password">
+                    <img class="passwordEyes" src="assets/Site_Images/eyes.svg" alt="" (click)="ShowPassword()" />
+                    <span
+                        *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)"
+                        class="required">{{'required'|translate}}</span>
+                </div>
+                <div class="Remember_Forget">
+                </div>
+            </div>
+            <div class="btnLogin">
+                <button class="back_primary">{{'login'|translate}}</button>
+            </div>
+        </form>
+    </div>
+</div>
+<alert></alert>

@@ -1,0 +1,50 @@
+<div class="side_menu smallMenu">
+    <div class="">
+        <div class="menu_head">
+            <div class="personal_inf">
+                <div class="imgPersonal">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <img src="assets/Site_Images/logoDashbord.png" />
+                </div>
+
+            </div>
+        </div>
+        <div class="menu_section ">
+            <ul class="container_list">
+                <li class="list_item ">
+                    <a href="/dashboard" class="menu_item_link">
+                        <p>Home</p>
+                    </a>                   
+                    <a href="/daydrivetime" class="menu_item_link">
+                        <p>Single Drive Time Violations</p>
+                    </a>
+                    <a href="/resttimeviolations" class="menu_item_link">
+                        <p>Rest Drive Time Violations</p>
+                    </a>
+                    <a href="/singledrivetimeviolations" class="menu_item_link">
+                        <p>Day Drive Time Violations</p>
+                    </a>
+                    <a href="/weekdrivetimeviolations" class="menu_item_link">
+                        <p>Week Drive Time Violations</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="menu_bottom">
+        <ul class="container_list">
+            <li class="list_item ">
+                <a (click)="logout()" class="menu_item_link">
+                    <img class="iconCategory" src="assets/Site_Images/logOut.svg" alt="">
+                    <p>{{'logOut'|translate}}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

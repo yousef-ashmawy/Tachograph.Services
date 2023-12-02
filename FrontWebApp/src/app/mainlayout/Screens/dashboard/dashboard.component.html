@@ -1,0 +1,39 @@
+<div class="section_body">
+    <div class="contentBody">
+        <div class="subTi_reTa">
+            <div class="subtitle">
+                <p>Drivers Data</p>
+            </div>
+
+            <div class="input_group">
+                <input [(ngModel)]="Date" type="date" (change)="Search()" />
+            </div>
+            
+        </div>
+
+        <div class="table_desc wishlist" id="table">
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="product_table">driver</th>
+                            <th class="product_table">Date</th>
+                            <th class="product_table">Start Time</th>
+                            <th class="product_table">End Time</th>
+                            <th class="product_table">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let Item of DriversData">
+                            <td class="product_table">{{Item.driver}}</td>
+                            <td class="product_table">{{Item.date}}</td>
+                            <td class="product_table">{{Item.timestart}}</td>
+                            <td class="product_table">{{Item.timeend}}</td>
+                            <td class="product_table">{{Item.activity}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

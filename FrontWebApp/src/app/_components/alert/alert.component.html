@@ -1,0 +1,34 @@
+<!-- <div *ngFor="let alert of alerts" class="{{cssClass(alert)}}">
+    <span [innerHTML]="alert.message"></span>
+    <button class="btn-close" (click)="removeAlert(alert)"></button>
+</div> -->
+
+<div class="popup" *ngFor="let alert of alerts">
+    <div class="popup_overlay flex_center">
+        <div [ngClass]="['popup_container', alert.typeClass]">
+
+            <div class="popup_header flex_center">
+                <h3></h3>
+                <a class="closepopup" (click)="removeAlert(alert)">
+                    <img src="assets/Site_Images/close.svg" alt="">
+                </a>
+            </div>
+
+
+            <div class="popup_content">
+
+                <div class="contentdata_popup">
+                    <p innerHTML="{{alert.message??'' | translate}}">{{'OrderDone' | translate }}</p>
+                </div>
+                <div *ngIf="!confirmForm" class="button_group">
+                    <button class="back_primary" (click)="removeAlert(alert)">{{ 'ok' | translate }}</button>
+                </div>
+                <!-- <div *ngIf="confirmForm" class="button_group">
+                    <button class="back_primary" (click)="yesfunction()">Yes</button>
+                    <button class="back_primary" (click)="removeAlert(alert)">NO</button>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+</div>

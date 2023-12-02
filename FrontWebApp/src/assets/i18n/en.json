@@ -1,0 +1,14 @@
+{
+    "welcome":"Welcome",
+    "loginDescription":"Hey enter your details to get sign in to your account",
+    "login":"Login",
+    "Email":"Email",
+    "passwordPlaceholder":"Min. 8 character",
+    "password":"Password",
+    "rememberMe":"Remember me",
+    "recoveryPassword":"Recovery Password",
+    "notRegisteredYet":"Not registered yet?",
+    "createNewAccount":"Create new account",
+    "rightsReserved":"@2023 All rights reserved",
+    "mainHeaderDescription":"The new green"
+}

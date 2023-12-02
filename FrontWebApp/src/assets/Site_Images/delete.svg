@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="delete" transform="translate(-287 129)">
+    <rect id="Rectangle_2726" data-name="Rectangle 2726" width="30" height="30" transform="translate(287 -129)" fill="none"/>
+    <g id="svgexport-17_5_" data-name="svgexport-17 (5)" transform="translate(290 -126)">
+      <path id="Path_5409" data-name="Path 5409" d="M19,7a1,1,0,0,0-1,1V19.191A1.92,1.92,0,0,1,15.99,21H8.01A1.92,1.92,0,0,1,6,19.191V8A1,1,0,0,0,4,8V19.191A3.918,3.918,0,0,0,8.01,23h7.98A3.918,3.918,0,0,0,20,19.191V8A1,1,0,0,0,19,7Zm1-3H16V2a1,1,0,0,0-1-1H9A1,1,0,0,0,8,2V4H4A1,1,0,0,0,4,6H20a1,1,0,0,0,0-2ZM10,4V3h4V4Z" fill="#ff4040"/>
+      <path id="Path_5410" data-name="Path 5410" d="M11,17V10a1,1,0,0,0-2,0v7a1,1,0,0,0,2,0Zm4,0V10a1,1,0,0,0-2,0v7a1,1,0,0,0,2,0Z" fill="#ff4040"/>
+    </g>
+  </g>
+</svg>

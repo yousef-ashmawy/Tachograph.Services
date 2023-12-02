@@ -1,0 +1,7 @@
+<svg id="Settings" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect id="Rectangle_2496" data-name="Rectangle 2496" width="30" height="30" fill="none"/>
+  <g id="setting" transform="translate(5.328 4.611)">
+    <path id="Path_5147" data-name="Path 5147" d="M18.307,6.124l-.622-1.08a1.913,1.913,0,0,0-2.609-.7h0a1.9,1.9,0,0,1-2.609-.677,1.832,1.832,0,0,1-.256-.915h0A1.913,1.913,0,0,0,10.3.778H9.043a1.9,1.9,0,0,0-1.9,1.913h0A1.913,1.913,0,0,1,5.227,4.577a1.831,1.831,0,0,1-.915-.256h0a1.913,1.913,0,0,0-2.609.7l-.668,1.1a1.913,1.913,0,0,0,.7,2.609h0a1.913,1.913,0,0,1,0,3.314h0a1.9,1.9,0,0,0-.7,2.6h0l.632,1.089a1.913,1.913,0,0,0,2.609.741h0a1.895,1.895,0,0,1,2.6.7,1.831,1.831,0,0,1,.256.915h0A1.913,1.913,0,0,0,9.043,20H10.3a1.913,1.913,0,0,0,1.913-1.9h0a1.9,1.9,0,0,1,1.913-1.913,1.949,1.949,0,0,1,.915.256h0a1.913,1.913,0,0,0,2.609-.7h0l.659-1.1a1.9,1.9,0,0,0-.7-2.609h0a1.9,1.9,0,0,1-.7-2.609,1.877,1.877,0,0,1,.7-.7h0a1.913,1.913,0,0,0,.7-2.6h0Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <circle id="Ellipse_138" data-name="Ellipse 138" cx="2.636" cy="2.636" r="2.636" transform="translate(7.039 7.753)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
