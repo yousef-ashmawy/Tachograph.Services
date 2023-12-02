@@ -18,5 +18,5 @@ export class AppComponent {
       translate.use(browserLang.match(/en|ar/) ? browserLang : 'en');
     }
   }
-  title = 'Blue-FrontEnd';
+  title = 'Tachograph.Services-FrontEnd';
 }

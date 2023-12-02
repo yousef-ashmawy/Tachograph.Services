@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Blue-FrontEnd": {
+    "Tachograph.Services-FrontEnd": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Blue-FrontEnd:build:production"
+              "browserTarget": "Tachograph.Services-FrontEnd:build:production"
             },
             "development": {
-              "browserTarget": "Blue-FrontEnd:build:development"
+              "browserTarget": "Tachograph.Services-FrontEnd:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Blue-FrontEnd:build"
+            "browserTarget": "Tachograph.Services-FrontEnd:build"
           }
         },
         "test": {

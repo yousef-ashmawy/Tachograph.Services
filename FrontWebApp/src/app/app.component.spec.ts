@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Blue-FrontEnd'`, () => {
+  it(`should have as title 'Tachograph.Services-FrontEnd'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Blue-FrontEnd');
+    expect(app.title).toEqual('Tachograph.Services-FrontEnd');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Blue-FrontEnd app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Tachograph.Services-FrontEnd app is running!');
   });
 });
